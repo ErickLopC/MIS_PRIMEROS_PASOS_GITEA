@@ -53,6 +53,10 @@ git init
 ```
 
 ```
+git config --global --add safe.directory /srv/dev-disk-by-uuid-9ffedf72-d861-4e55-9fad-66a10af08eeb/Servidores/GITEA
+```
+
+```
 git checkout -b main
 ```
 
