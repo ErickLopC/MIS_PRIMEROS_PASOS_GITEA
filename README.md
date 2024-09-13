@@ -34,12 +34,44 @@ Para la main
 git config --global init.defaultBranch main
 ```
 
+
+----
+
+-----
+
+------
+
+
+# Por primera vez
+
 ```
 touch README.md
 ```
 
 ```
+git init
 ```
+
+```
+git checkout -b main
+```
+
+```
+git add README.md
+```
+
+```
+git commit -m "first commit"
+```
+
+```
+git remote add origin http://192.168.1.77:3000/SERVIDORES/OVM_INSTALLATION.git
+```
+
+```
+git push -u origin main
+```
+
 
 
 
