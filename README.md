@@ -41,9 +41,51 @@ touch README.md
 ```
 ```
 
+
+
+---
+
+----
+
+------
+
+## Verifica el estado del repositorio local
+
+```
+git status
+```
+
+ ## Obtener los últimos cambios del repositorio remoto
+ 
+Para sincronizar tu repositorio local con el repositorio remoto en GitHub, utiliza el comando git fetch para obtener los últimos cambios del repositorio remoto sin aplicarlos automáticamente a tu rama local:
+
+```
+git fetch origin
+
+```
+
+## Fusionar los cambios del remoto en tu rama local
+
+Luego, fusiona los cambios obtenidos con tu rama local. Generalmente, querrás fusionar los cambios en la rama principal (como main o master). Asegúrate de estar en la rama en la que deseas fusionar los cambios:
+
+```
+git checkout main  # O usa 'master' u otra rama según sea necesario
+
+```
+##  Actualizar tu rama local con un solo comando 
+```
+git pull 
+```
+O
+```
+git pull origin main  # O 'origin/master', según tu configuración
+```
+
 ```
 ```
 
+```
+```
 
 
 ```
